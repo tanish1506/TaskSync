@@ -1,6 +1,6 @@
 const Task = require('../models/taskModel');
 const catchAsync = require('../utils/catchAsync');
-const AppError = require('../utils/AppError');
+const AppError = require('../utils/appError');
 
 // Get all tasks
 exports.getAllTasks = catchAsync(async (req, res, next) => {
